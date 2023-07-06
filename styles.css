@@ -9,6 +9,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: black;
+  /* background-color: white; */
   background-color: rgb(68, 61, 61);
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@ body {
 
 #card {
   border: #000000 solid 0.1em;
-  width: 30em;
+  width: 40em;
   height: auto;
   padding: 1.9em;
   padding-top: 5em;
@@ -66,28 +67,19 @@ body {
   flex-wrap: wrap;
 }
 
-.row {
-  flex: 1 1 100%;
-}
-
-.column {
-  flex: 2 1 50%;
-}
-
 .field {
-  flex: 1;
+  flex: 1 0 47%;
 
   /* display: flex;
   flex-direction: column; */
 }
 
-.flex-basis-100 {
-  flex-basis: 50%;
+#name-field.field {
+  flex: 2 0;
 }
 
-#name-field.field {
-  flex-grow: 2;
-  flex-shrink: 0;
+#identification-field.field {
+  flex: 1 0;
 }
 
 .field label {
