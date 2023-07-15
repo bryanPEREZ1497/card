@@ -13,69 +13,52 @@
         <div class="card">
           <div id="name-field" class="field">
             <label for="name">Name*</label>
-            <input type="text" name="name" id="name" placeholder="Name" />
+            <div>
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
             <small id="name-error" class="field-error">Incorrect name</small>
           </div>
+
           <div id="identification-field" class="field">
             <label for="identification">Identification*</label>
-            <input
-              type="text"
-              name="identification"
-              id="identification"
-              placeholder="Identification"
-            />
+            <div class="" id="complex-field">
+              <select name="identification-select" id="identification-select">
+                <option value="0">CC</option>
+                <option value="1">RUC</option>
+              </select>
+              <input
+                type="text"
+                name="identification"
+                id="identification"
+                placeholder="Identification"
+              />
+            </div>
             <small id="identification-error" class="field-error"
               >Incorrect identification
             </small>
           </div>
         </div>
-        <!-- <div class="card">
-          <div class="row">
-            <div class="column">
-              <div id="x-field" class="field">
-                <label for="name">Name*</label>
-                <input type="text" name="name" id="name" placeholder="Name" />
-                <small id="name-error" class="field-error"
-                  >Incorrect name</small
-                >
-              </div>
-            </div>
-            <div class="column">
-              <div id="y-field" class="field">
-                <label for="name">Name*</label>
-                <input type="text" name="name" id="name" placeholder="Name" />
-                <small id="name-error" class="field-error"
-                  >Incorrect name</small
-                >
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="column">
-              <div id="z-field" class="field">
-                <label for="name">Name*</label>
-                <input type="text" name="name" id="name" placeholder="Name" />
-                <small id="name-error" class="field-error"
-                  >Incorrect name</small
-                >
-              </div>
-            </div>
-          </div>
-        </div> -->
+
         <div class="card">
           <div id="x-field" class="field">
-            <label for="name">Name*</label>
-            <input type="text" name="name" id="name" placeholder="Name" />
+            <div>
+              <label for="name">Name*</label>
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
             <small id="name-error" class="field-error">Incorrect name</small>
           </div>
           <div id="y-field" class="field">
-            <label for="name">Name*</label>
-            <input type="text" name="name" id="name" placeholder="Name" />
+            <div>
+              <label for="name">Name*</label>
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
             <small id="name-error" class="field-error">Incorrect name</small>
           </div>
           <div id="z-field" class="field">
-            <label for="name">Name*</label>
-            <input type="text" name="name" id="name" placeholder="Name" />
+            <div>
+              <label for="name">Name*</label>
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
             <small id="name-error" class="field-error">Incorrect name</small>
           </div>
         </div>

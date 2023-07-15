@@ -10,7 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: black;
   /* background-color: white; */
-  background-color: rgb(68, 61, 61);
+  background-color: rgb(137, 122, 122);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,12 +74,24 @@ body {
   flex-direction: column; */
 }
 
-#name-field.field {
-  flex: 2 0;
+.field > div {
+  border-bottom: 4px solid #c32222;
 }
 
-#identification-field.field {
+#name-field {
+  flex: 1.3 0;
+}
+
+#identification-field {
   flex: 1 0;
+}
+
+#complex-field {
+  display: flex;
+}
+
+#complex-field > * {
+  flex: 1;
 }
 
 .field label {
